@@ -1,0 +1,137 @@
+* {
+    background-color: rgb(255, 236, 185);
+    font-size: 20px;
+    transition: 0.5s;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.log-in {
+    display: block;
+}
+
+form {
+    text-align: center;
+}
+
+img {
+    width: 30vh;
+    margin-top: 8vh;
+    margin-bottom: 5vh;
+}
+
+.user-img {
+    display: flex;
+    justify-content: center;
+}
+
+.classified {
+    display: none;
+    text-align: center;
+}
+
+.classified-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.greet-user {
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+input {
+    text-align: center;
+    border: 5px black solid;
+    padding: 5px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(251, 246, 232);
+}
+
+input:hover {
+    background-color: rgb(201, 185, 141);
+}
+
+.button-box {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border: 3px solid black;
+    background-color: rgb(136, 171, 236);
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+button:hover {
+    background-color: rgb(114, 144, 199);
+}
+
+.admin {
+    display: block;
+    text-align: center;
+}
+
+p {
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+
+table {
+    border-spacing: 5px;
+    background-color: rgba(247, 227, 227, 255);
+    padding: 8px;
+    min-width: 55vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: rgba(175, 137, 159, 255);
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+td {
+    padding: 10px;
+    background-color: rgba(237, 209, 225, 255);
+    border-radius: 10px;
+}
+
+.users-sort{
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+}
+
+h1{
+    margin-right: 10px;
+}
+
+select{
+    background-color: rgba(237, 209, 225, 255);
+    border: 3px black solid;
+    border-radius: 10px;
+}
+
+select:hover{
+    background-color: rgba(175, 137, 159, 255);
+}
+
+option{
+    text-align: center;
+    background-color:rgba(247, 227, 227, 255)
+}

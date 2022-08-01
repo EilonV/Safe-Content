@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Safe Content</title>
+</head>
+
+<body onload="onInit()">
+
+    <div class="log-in">
+        <div class="user-img">
+            <img src="/Day19-MVC/LogIn-MVC/img/user.png" alt="user welcome img">
+        </div>
+
+        <form class="form" onsubmit="onLogIn(event)">
+            <div>
+                <input type="text" name="user-name" placeholder="Username" />
+            </div>
+
+            <div>
+                <input type="password" name="user-pass" placeholder="Password" />
+            </div>
+
+            <div class="button-box">
+                <button>Log in</button>
+            </div>
+        </form>
+    </div>
+    
+    <div class="classified">
+        <p class="greet-user"></p>
+        <img class="classified-img" src="img/classified.png" alt="classified">
+        <button onclick="doLogout()">Log out</button>
+
+    </div>
+
+
+    <script src="js/service/util.service.js"></script>
+    <script src="js/service/storage.service.js"></script>
+    <script src="js/service/admin-service.js"></script>
+    <script src="js/service/service.js"></script>
+    <script src="js/admin-main.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Admin</title>
+</head>
+
+<body onload="onInit()">
+
+    <div class="admin">
+        <p>Welcome back: admin!</p>
+        <img class="classified-img" src="img/classified.png" alt="classified">
+    </div>
+
+    <section class="users-sort">
+        <h1>Sort</h1>
+        <select onchange="onSetSort(this.value)">
+            <option value="NAME">Username</option>
+            <option value="LASTLOGIN">Last login</option>
+        </select>
+    </section>
+
+    <div class="table">
+        <table>
+        </table>
+    </div>
+
+    <div class="admin">
+        <button onclick="redirect2Login()">Log out</button>
+    </div>
+
+
+    <script src="js/service/util.service.js"></script>
+    <script src="js/service/storage.service.js"></script>
+    <script src="js/service/admin-service.js"></script>
+    <script src="js/service/service.js"></script>
+    <script src="js/admin-main.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
